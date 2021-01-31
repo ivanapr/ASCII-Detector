@@ -1,0 +1,17 @@
+import wollok.game.*
+import config.*
+import player.*
+
+program game {
+	
+	//Inicializo juego
+	game.title("ASCII Detector")
+	game.width(16)
+	game.height(16)
+	//game.boardGround("assets/mainMenu.png")
+	
+	mainMenu.start()
+
+	//Inicio
+	game.start()
+}
